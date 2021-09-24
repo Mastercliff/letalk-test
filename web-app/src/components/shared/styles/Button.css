@@ -1,0 +1,35 @@
+.button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 6px;
+    border: none;
+
+    font-weight: bold;
+    text-transform: uppercase;
+    
+    cursor: pointer;
+
+    padding: 15px ;
+}
+
+.primary{
+    background-color: #F3A126;
+    color: white;
+}
+
+.secondary{
+    background-color: transparent;
+    color: black;
+}
+
+.submit{
+    background-color: #21AE1E;
+    color: white;
+}
+
+.disabled{
+    background-color: #414141;
+    color: rgb(240, 240, 240);
+}

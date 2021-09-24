@@ -1,0 +1,41 @@
+
+.grid{
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    text-align: left;
+}
+
+
+h4{
+    margin: 10px 0px;
+}
+
+table{
+ border-collapse: collapse;
+ width: 100%;
+}
+
+th{
+    color: #000000e8;
+    font-size: 16px;
+    font-weight: bold;
+
+    padding-bottom:10px;
+}
+
+tr{
+    border-bottom:solid 1px #0000009d;
+    
+    text-align: left;
+}
+
+td {
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-right:20px;   
+  }
+  
+td:first-child {
+    padding-left:20px;
+    padding-right:0;
+  }
